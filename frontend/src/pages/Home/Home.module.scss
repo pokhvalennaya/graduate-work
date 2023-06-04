@@ -1,0 +1,39 @@
+.linkBlock {
+  display: flex;
+}
+.link {
+  //   margin-right: 20px;
+  color: black;
+  font-weight: 700;
+  line-height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 0.15px;
+  border-radius: 5px;
+  padding: 0 0 20px 0;
+  margin: 0 10px 0 0;
+  text-decoration: none;
+  color: #18272f;
+  position: relative;
+  text-decoration: none;
+}
+.link:first-child:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #18272f;
+  bottom: 10px;
+  left: 0;
+  //   transform-origin: right;
+  //   transform: scaleX(0);
+  //   transition: transform 0.3s ease-in-out;
+  //   transform-origin: left;
+}
+.link::before {
+  right: 10px;
+}
+// .link:hover::before {
+//
+//   transform: scaleX(1);
+// }

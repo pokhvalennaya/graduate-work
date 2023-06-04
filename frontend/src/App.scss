@@ -1,0 +1,23 @@
+html,
+.wrapper {
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+
+  padding: 1rem; /*это свойство можно удалить, добавлено для наглядности*/
+  background: #e6f2ff; /*это свойство можно удалить, добавлено для наглядности*/
+}
+
+footer {
+  flex: 0 0 auto;
+
+  padding: 1rem; /*это свойство можно удалить, добавлено для наглядности*/
+  background: #e6ffe6; /*это свойство можно удалить, добавлено для наглядности*/
+}
